@@ -15,7 +15,7 @@
 <body>
     <h1>Privacy Policy for TempContacts</h1>
 
-    <p><strong>Last updated:</strong> August 4, 2025</p>
+    <p><strong>Last updated:</strong> September 1, 2025</p>
 
     <p>Thank you for using TempContacts ("the App"). This Privacy Policy explains how we handle your information. Our core principle is privacy: your data is your own, and our app is designed to keep it that way.</p>
 
@@ -24,12 +24,14 @@
     
     <p>The permissions we request and why we need them:</p>
     <ul>
+        <li><strong>Camera (`CAMERA`)</strong>: Required for the business card scanner feature. Images are processed on your device in real-time and are not stored or transmitted.</li>
+        
         <li><strong>Contacts (`READ_CONTACTS`, `WRITE_CONTACTS`)</strong>: Required to read your address book to display contact names, and to save, edit, or delete contacts as you direct.</li>
-        <li><strong>Call Log (`READ_CALL_LOG`)</strong>: Required to display your call history in the "Call Logs" tab.</li>
-        <li><strong>Phone (`CALL_PHONE`, `READ_PHONE_STATE`, `READ_PHONE_NUMBERS`, `MANAGE_OWN_CALLS`)</strong>: These are required to initiate phone calls, handle dual-SIM selection, and to power the optional "Callback Reminder" feature by detecting when a call has ended.</li>
+        <li><strong>Call Log (`READ_CALL_LOG`, `WRITE_CALL_LOG`)</strong>: Required to display your call history in the "Call Logs" tab and to delete entries as you direct.</li>
+        <li><strong>Phone (`CALL_PHONE`, `READ_PHONE_STATE`, `READ_PHONE_NUMBERS`)</strong>: These are required to initiate phone calls, handle dual-SIM selection, and to power the optional "Callback Reminder" feature by detecting when a call has ended.</li>
         <li><strong>Accounts (`GET_ACCOUNTS`)</strong>: Required to show you a list of available accounts (e.g., Google, SIM) where you can choose to save a permanent contact.</li>
-        <li><strong>Notifications & Services (`POST_NOTIFICATIONS`, `FOREGROUND_SERVICE`, `FOREGROUND_SERVICE_PHONE_CALL`)</strong>: Required for the optional "Callback Reminder" feature to run in the background and show you notifications.</li>
-        <li><strong>Vibration (`VIBRATE`)</strong>: Required to provide haptic feedback on the dialer keypad.</li>
+        <li><strong>Notifications & Services (`POST_NOTIFICATIONS`, `FOREGROUND_SERVICE`)</strong>: Required for the optional "Callback Reminder" feature to run in the background and show you notifications.</li>
+        <li><strong>Vibration (`VIBRATE`)</strong>: Required to provide haptic feedback on the dialer keypad and for swipe gestures.</li>
     </ul>
 
     <h2>Data Storage and Security</h2>
